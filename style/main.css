@@ -156,9 +156,9 @@ body {
       font-size: 1em;
     }
   
-    .swiper {
+    /* .swiper {
       height: 200px;
-    }
+    } */  /* ← Comentar para no romper el diseño */
   
     .video-container {
       border-width: 2px;
@@ -175,10 +175,11 @@ body {
     border: 2px dashed #d63384;
     padding: 1em;
     border-radius: 20px;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
+    box-sizing: border-box;
     animation: aparecer 2s ease-in-out;
-  }
+  }  
   
   .dedicatoria h2 {
     color: #d63384;
