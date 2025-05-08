@@ -168,3 +168,43 @@ body {
       width: 90%;
     }
   }  
+
+  .dedicatoria {
+    margin: 2em auto;
+    background-color: #ffe4f0;
+    border: 2px dashed #d63384;
+    padding: 1em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+    animation: aparecer 2s ease-in-out;
+  }
+  
+  .dedicatoria h2 {
+    color: #d63384;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+  }
+  
+  .familias {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #444;
+    animation: flotar 5s ease-in-out infinite;
+  }
+  
+  .familias li {
+    margin: 0.3em 0;
+  }
+  
+  @keyframes aparecer {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes flotar {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }  
